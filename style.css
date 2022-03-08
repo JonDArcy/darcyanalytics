@@ -1,19 +1,37 @@
 /*# for id's - can only go to one thing */
 /*. for class's - can be used on my things */
 
-p{
-    color: white;
-    background: blue;
-    font-style: italic;
+/*GlOBALS*/
+p {
+	color: white;
+	background: blue;
+	font-style: italic;
 }
 
-#box{
-    width: 100px;
-    height: 100px;
-    background: green;
-
+body {
+	background-color: aliceblue;
 }
 
-body{
-    background-color: aliceblue;
+/*CLASSES*/
+
+/*IDs*/
+
+#navbar {
+	width: 96%;
+	height: 100px;
+	background: linear-gradient(to bottom, #fdffa9, #ffd365);
+	padding: 10px;
+	margin-left: 1%;
+	margin-right: 1%;
+	border: 2px solid;
+}
+
+#box {
+	width: 100px;
+	height: 100px;
+	background: #00c897;
+	padding: 10px;
+	border: 2px solid #019267;
+	top: 0px;
+	left: 0px;
 }
