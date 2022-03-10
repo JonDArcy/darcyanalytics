@@ -3,9 +3,10 @@
 
 /*GlOBALS*/
 body {
-	background-color: white;
+	background-color: #003666;
 	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "helvetica";
+	color: whitesmoke;
 }
 
 /*CLASSES*/
@@ -17,21 +18,31 @@ body {
 	background-color: #ddd;
 }
 
-#navbar a {
+#navbar_left a {
 	float: left;
 	color: black;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 36px;
+	font-family: "Brush Script MT";
 }
 
-#navbar a:hover {
+#navbar_right a {
+	float: right;
+	color: black;
+	text-align: center;
+	padding: 30px 16px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#navbar_right a:hover {
 	background-color: #d00027;
 	color: black;
 }
 
-#navbar a.active {
+#navbar_right a.active {
 	background-color: black;
 	color: white;
 }
@@ -52,8 +63,8 @@ body {
 }
 
 #teamphoto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
