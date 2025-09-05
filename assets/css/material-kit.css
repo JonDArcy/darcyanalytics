@@ -22733,6 +22733,9 @@ fieldset:disabled .btn {
 .rotating-card-container .card .front {
   z-index: 2;
   position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 .rotating-card-container .card .back {
