@@ -11427,7 +11427,7 @@ fieldset:disabled .btn {
 }
 
 .bg-gray-200 {
-  background-color: #e5e5e5 !important;
+  background-color: #b3b1a6 !important;
 }
 
 .bg-gray-300 {
@@ -29166,4 +29166,55 @@ pre[class*=language-] {
   }
 }
 
+/* ... lots of your existing CSS ... */
+
+/* === Custom overrides for flip card text === */
+.front.front-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: inherit;
+  z-index: 1;
+}
+
+.front .card-body {
+  position: relative;
+  z-index: 2;
+}
+
+.front h3{
+  font-size: 2.2rem;      /* bigger heading */
+  font-weight: 800;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.front p{
+  font-size: 1.25rem;      /* bigger heading */
+  font-weight: 600;  
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.header-2 h1 {
+  color: #F0ECE3;
+  font-size: 3rem;       /* scale heading up */
+  font-weight: 900;      /* extra bold */
+  text-shadow: 
+    0 0 6px rgba(0, 0, 0, 0.9),  /* strong black inner glow */
+    0 0 12px rgba(0, 0, 0, 0.7); /* glow */
+}
+
+.header-2 p {
+  color: #F0ECE3;
+  font-size: 1.5rem;     /* slightly larger body */
+  font-weight: 700;      /* semi-bold */
+  text-shadow: 
+    0 0 6px rgba(0, 0, 0, 0.9),  /* strong black inner glow */
+    0 0 12px rgba(0, 0, 0, 0.7); /* faint red glow from your palette */
+}
+
+.section-card {
+  --bs-card-spacer-y: 0.1rem; /* vertical padding */
+  --bs-card-spacer-x: 0.1rem;  /* horizontal padding */ /* much tighter */
+}
 /*# sourceMappingURL=kit-free.css.map */
