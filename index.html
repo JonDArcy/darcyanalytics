@@ -59,9 +59,17 @@ D'Arcy Analytics
   
   <!-- Navbar -->
 <div class="container position-sticky z-index-sticky top-0"><div class="row"><div class="col-12">
-<nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 p-2 start-0 end-0 mx-4">
+<nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 p-0 start-0 end-0 mx-4">
   <div class="container-fluid px-0">
-    <a class="navbar-brand font-weight-bolder ms-sm-3 text-sm" href="https://darcyanalytics.com/" rel="tooltip" data-placement="bottom" target="_blank">
+    <a class="navbar-brand font-weight-bolder ms-sm-3 text-sm d-flex align-items-center" 
+      href="https://darcyanalytics.com/" 
+      rel="tooltip" 
+      data-placement="bottom" 
+      target="_blank">
+      <!-- Logo -->
+      <img src="./assets/img/logo-ct-dark.png" alt="D'Arcy Analytics Logo" 
+      style="height:32px; width:auto; margin-right:8px;">
+      <!-- Brand Text -->
       D'Arcy Analytics
     </a>
     <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -294,7 +302,6 @@ D'Arcy Analytics
     <div class="container">
       <div class="row">
         <div class="col-lg-6 ms-lg-5">
-          <h4 class="text-white">Built by developers</h4>
           <h1 class="text-white">Complex Documentation</h1>
           <p class="lead text-white opacity-8">Blah blah blah</p>
           <a href="https://darcyanalytics.com/" class="text-white icon-move-right">
@@ -307,25 +314,23 @@ D'Arcy Analytics
   </div>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-4">
-      <div class="info-horizontal bg-gradient-dark border-radius-xl d-block d-md-flex p-4">
-        <i class="material-symbols-rounded text-white text-3xl">flag</i>
-        <div class="ps-0 ps-md-3 mt-3 mt-md-0">
-          <h5 class="text-white">Getting Started</h5>
-          <p class="text-white">Check the possible ways of working with our product and the necessary files for building your own project.</p>
+<div class="container mt-sm-5">
+  <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl" style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg');" loading="lazy">
+    <span class="mask bg-gradient-dark"></span>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 ms-lg-5">
+          <h1 class="text-white">Getting Started</h1>
+          <p class="lead text-white opacity-8">Check the possible ways of working with our product and the necessary files for building your own project.</p>
           <a href="https://darcyanalytics.com/" class="text-white icon-move-right">
-            Let's start
+            Let's Start
             <i class="fas fa-arrow-right text-sm ms-1"></i>
           </a>
         </div>
       </div>
     </div>
-
-      </div>
-    </div>
   </div>
+</div>
 </div>
 <!-- -------- END Content Presentation Docs ------- -->
 
@@ -405,18 +410,17 @@ D'Arcy Analytics
 
   
 
-  <footer class="footer pt-5 mt-5">
+  <footer class="footer pt-2 mt-2">
   <div class="container">
-    <div class=" row">
-      <div class="col-md-3 mb-4 ms-auto">
-        <div>
+    <div class="row align-items-start">
+
+      <!-- Fox + Social -->
+      <div class="col-md-3 d-flex flex-column align-items-start">
           <a href="https://darcyanalytics.com/">
-            <img src="./assets/img/logo-ct-dark.png" class="mb-3 footer-logo" alt="main_logo">
+            <img src="./assets/img/logo-ct-dark.png" class="footer-logo" alt="main_logo">
           </a>
-          <h6 class="font-weight-bolder mb-4">D'Arcy Analytics</h6>
-        </div>
         <div>
-          <ul class="d-flex flex-row ms-n3 nav">
+          <ul class="d-flex flex-row ms-n3 nav mt-3">
             <li class="nav-item">
               <a class="nav-link pe-1" href="https://darcyanalytics.com/" target="_blank">
                 <i class="fab fa-facebook text-lg opacity-8"></i>

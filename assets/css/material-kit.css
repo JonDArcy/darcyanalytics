@@ -22860,7 +22860,7 @@ fieldset:disabled .btn {
 }
 
 .dark-version .sidenav.bg-white .collapse .nav-item .nav-link:not(.active) i {
-  color: #262626 !important;
+  color: #f0ece3 !important;
 }
 
 .dark-version .sidenav.bg-white .collapse .nav-item h6,
@@ -23997,7 +23997,7 @@ label,
 }
 
 .footer .nav-link {
-  color: #262626;
+  color: #f0ece3;
   font-weight: 400;
   font-size: 0.875rem;
   padding-top: 0;
@@ -24010,7 +24010,8 @@ label,
 }
 
 .footer .footer-logo {
-  max-width: 2rem;
+  height: 250px;
+  width: auto;
 }
 
 .bg-gradient-primary {
@@ -29216,5 +29217,15 @@ pre[class*=language-] {
 .section-card {
   --bs-card-spacer-y: 0.1rem; /* vertical padding */
   --bs-card-spacer-x: 0.1rem;  /* horizontal padding */ /* much tighter */
+}
+
+.navbar-brand img {
+  height: 32px;
+  width: auto;
+  margin-right: 8px;
+}
+
+.footer .col-md-2 {
+  padding-top: 40px; /* adjust until headings align with the fox */
 }
 /*# sourceMappingURL=kit-free.css.map */
